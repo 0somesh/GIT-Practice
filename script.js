@@ -6,6 +6,8 @@ function sayName(){
     console.log('MayName' , + this.name);
 }
 
+setTimeout(printToScreen, 1 * 1000);
+
 const calculate = (a,b, operation) => {
     return operation(a,b);
 } 
