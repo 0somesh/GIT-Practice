@@ -9,3 +9,12 @@ function sayName(){
 const calculate = (a,b, operation) => {
     return operation(a,b);
 } 
+
+function gatData(dataId, getNextData){
+    setTimeout(() => {
+        console.log('data', dataId);
+        if(getNextData){
+            getNextData();
+        }
+    },2000);
+}
