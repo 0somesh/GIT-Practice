@@ -10,6 +10,7 @@ const calculate = (a,b, operation) => {
     return operation(a,b);
 } 
 
+//  async function
 function gatData(dataId, getNextData){
     setTimeout(() => {
         console.log('data', dataId);
