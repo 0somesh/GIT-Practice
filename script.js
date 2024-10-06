@@ -19,3 +19,5 @@ function gatData(dataId, getNextData){
         }
     },2000);
 }
+
+let promise = new Promise((resolve, reject)
